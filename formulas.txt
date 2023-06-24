@@ -1,0 +1,4 @@
+klerp_fixed = 256 * (distance_squared - inner_squared) / (outer_squared - 
+inner_squared)
+
+interpolated_color = ((256 - klerp_fixed) * color_a + klerp_fixed * color_b) / 256
